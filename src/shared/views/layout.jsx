@@ -21,8 +21,9 @@ function Layout(props) {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto" />
           <Nav>
-            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/news">News</Nav.Link>
             <Nav.Link href="/calculator">Calculator</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

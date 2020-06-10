@@ -7,6 +7,7 @@ import About from './shared/views/about';
 import Index from './shared/views/app';
 import Error from './shared/views/error';
 import Calculator from './shared/views/calculator';
+import News from './shared/views/news';
 
 const customHistory = createBrowserHistory();
 
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/about" exact>
             <About />
+          </Route>
+          <Route path="/news" exact>
+            <News />
           </Route>
           <Route>
             <Error />
